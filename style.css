@@ -109,32 +109,32 @@ body {
     font-size: 40px;
     margin-bottom: 80px;
     text-transform: capitalize;
-    letter-spacing: var(--mainSpacing);
+    letter-spacing: 1.5px;
   }
   #muskimodeli {
     text-align: center;
     font-size: 30px;
     margin-bottom: 80px;
     text-transform: capitalize;
-    letter-spacing: var(--mainSpacing);
+    letter-spacing: 1.5px;
   }
   #zenskimodeli h3 {
     text-align: center;
     font-size: 30px;
     margin-bottom: 80px;
     text-transform: capitalize;
-    letter-spacing: var(--mainSpacing);
+    letter-spacing: 1.5px;
   }
   #decijimodeli h3 {
     text-align: center;
     font-size: 30px;
     margin-bottom: 80px;
     text-transform: capitalize;
-    letter-spacing: var(--mainSpacing);
+    letter-spacing: 1.5px;
   }
   
   .products-center {
-    width: 90vw;
+    width: 90%;
     margin: 0 auto;
     max-width: 1170px;
     display: grid;
@@ -181,20 +181,20 @@ body {
   .btn {
     text-align: center;
     vertical-align: middle;
-    padding: 0.67em 0.67em;
+    padding: 10px 10px;
     cursor: pointer;
   }
   
   .btn-header {
-    margin: 0.5em 15% 2em 15%;
+    margin: 8px 15% 32px 15%;
     color: white;
     border: 2px solid #2d9cdb;
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 0;
-    font-size: 1.5em;
+    font-size: 24px;
     font-weight: lighter;
-    padding-left: 2em;
-    padding-right: 2em;
+    padding-left: 32px;
+    padding-right: 32px;
   }
   
   .btn-header:hover {
@@ -205,7 +205,7 @@ body {
     display: block;
     margin: 0 auto;
     color: #2d9cdb;
-    font-size: 4em;
+    font-size: 64px;
     border-radius: 50%;
     width: 100px;
     height: 100px;
