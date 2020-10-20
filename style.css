@@ -100,5 +100,131 @@ body {
     margin-bottom: 48px;
 }
 /*Header end*/
+/*Product*/
+.products {
+    padding: 64px 0;
+  }
+  .section-title h2 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 80px;
+    text-transform: capitalize;
+    letter-spacing: var(--mainSpacing);
+  }
+  #muskimodeli {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 80px;
+    text-transform: capitalize;
+    letter-spacing: var(--mainSpacing);
+  }
+  #zenskimodeli h3 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 80px;
+    text-transform: capitalize;
+    letter-spacing: var(--mainSpacing);
+  }
+  #decijimodeli h3 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 80px;
+    text-transform: capitalize;
+    letter-spacing: var(--mainSpacing);
+  }
+  
+  .products-center {
+    width: 90vw;
+    margin: 0 auto;
+    max-width: 1170px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    grid-column-gap: 24px;
+    grid-row-gap: 32px;
+  }
+  
+  .shop-item {
+    margin: 30px;
+  }
+  
+  .shop-item-title {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .shop-item-image {
+    height: 250px;
+  }
+  
+  .shop-item-details {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+  }
+  
+  .shop-item-price {
+    flex-grow: 1;
+    color: #333;
+  }
+  
+  .shop-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .btn {
+    text-align: center;
+    vertical-align: middle;
+    padding: 0.67em 0.67em;
+    cursor: pointer;
+  }
+  
+  .btn-header {
+    margin: 0.5em 15% 2em 15%;
+    color: white;
+    border: 2px solid #2d9cdb;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 0;
+    font-size: 1.5em;
+    font-weight: lighter;
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+  
+  .btn-header:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  
+  .btn-play {
+    display: block;
+    margin: 0 auto;
+    color: #2d9cdb;
+    font-size: 4em;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .btn-primary {
+    color: white;
+    background-color: rgb(165, 118, 70);
+    border: black;
+    border-radius: 1px;
+    font-weight: italic;
+  }
+  
+  .btn-primary:hover {
+    background-color: black;
+  }
+  
+  /*Product end*/
 
 
