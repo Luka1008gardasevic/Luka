@@ -76,3 +76,29 @@ body {
     font-style: italic;
 }
 /*Navbar end*/
+/*Header*/
+.head {
+    min-height: calc(100vh - 60px);
+    background: url("img/pozadina.jpg") center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8);
+    display: inline-block;
+    padding: 32px;
+
+}
+
+.banner-title {
+    font-size: 55px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 48px;
+}
+/*Header end*/
+
+
