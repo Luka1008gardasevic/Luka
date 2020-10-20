@@ -54,84 +54,107 @@
     </header>
 
     <!--Header end-->
+    <!--Products-->
+    <section class="products">
+      <div class="section-title">
+        <h2>Our Products</h2>
+      </div>
+      <br />
+      <div id="muskimodeli">
+        <h3><b>Men's collection</b></h3>
+      </div>
+      <div class="products-center">
+        <!-- Men Sunglasses-->
+        <div class="shop-items">
+          <div class="shop-item">
+            <span class="shop-item-title">Carrera</span>
+            <img class="shop-item-image" src="img/Muske/carrera.jpg" />
+            <div class="shop-item-details">
+              <span class="shop-item-price">€78.99</span>
+              <button class="btn btn-primary shop-item-button" type="button">
+                ADD TO CART
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Men Sunglasses end-->
+
+    <!--Woman sunglasses-->
+    <section class="products">
+      <div class="section-title">
+        <div id="zenskimodeli">
+          <h3><b>Woman's collection</b></h3>
+        </div>
+      </div>
+      <br />
+
+      <div class="products-center">
+        <div class="shop-items shop-items-female">
+          <div class="shop-item">
+            <span class="shop-item-title">Degrees North</span>
+            <img class="shop-item-image" src="img/Zenske/degreesnorth.jpg" />
+            <div class="shop-item-details">
+              <span class="shop-item-price">€48.99</span>
+              <button class="btn btn-primary shop-item-button" type="button">
+                ADD TO CART
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--woman end-->
+    <!--kids -->
 
     <section class="products">
-        <div class="section-title">
-          <h2>Our Products</h2>
+      <div class="section-title">
+        <div id="decijimodeli">
+          <h3><b>Kids collection</b></h3>
         </div>
-        <br />
-        <div id="muskimodeli">
-          <h3><b>Men's collection</b></h3>
-        </div>
-        <div class="products-center">
-          
-         <!--Sunglasses-->
-         <div class="shop-items">
-         <div class="shop-item">
-          <span class="shop-item-title">Carrera</span>
-          <img class="shop-item-image" src="img/Muske/carrera.jpg">
-          <div class="shop-item-details">
-              <span class="shop-item-price">€78.99</span>
-              <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+      </div>
+      <br />
+
+      <div class="products-center">
+        <!--Kids sunglasses-->
+        <div class="shop-items shop-items-kids">
+          <div class="shop-item">
+            <span class="shop-item-title">Esprit</span>
+            <img class="shop-item-image" src="img/Decije/esprit.jpg" />
+            <div class="shop-item-details">
+              <span class="shop-item-price">€45.99</span>
+              <button class="btn btn-primary shop-item-button" type="button">
+                ADD TO CART
+              </button>
+            </div>
           </div>
+        </div>
       </div>
-    </div>
-</section>
+    </section>
 
-<!--Man Sunglasses end-->
-       
-      
-<!--Woman sunglasses-->
-<section class="products">
-    <div class="section-title">
-      <div id="zenskimodeli">
-        <h3><b>Woman's collection</b></h3>
-      </div>
-    </div>
-    <br />
-
-    <div class="products-center">
-      
-      <div class="shop-items shop-items-female">
-        <div class="shop-item">
-         <span class="shop-item-title">Degrees North</span>
-         <img class="shop-item-image" src="img/Zenske/degreesnorth.jpg">
-         <div class="shop-item-details">
-             <span class="shop-item-price">€48.99</span>
-             <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
-         </div>
-         </div>
-     </div>
-</div>
-</section>
-<!--woman end-->
-<!--kids -->
-
-<section class="products">
-    <div class="section-title">
-      <div id="decijimodeli">
-        <h3><b>Kids collection</b></h3>
-      </div>
-    </div>
-    <br />
-
-    <div class="products-center">
-
-
-      <!--Kids sunglasses-->
-      <div class="shop-items shop-items-kids">
-        <div class="shop-item">
-         <span class="shop-item-title">Esprit</span>
-         <img class="shop-item-image" src="img/Decije/esprit.jpg">
-         <div class="shop-item-details">
-             <span class="shop-item-price">€45.99</span>
-             <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
-         </div>
-     </div>
-     </div>
-
-    
-</section>
+    <!--Kids end-->
+    <!--Products end-->
+    <!--cart-->
+    <section class="container content-section">
+        <div id="cart">
+        <h2 class="section-header">Cart</h2></div>
+        <div class="cart-row">
+            <span class="cart-item cart-header cart-column">Proizvod</span>
+            <span class="cart-price cart-header cart-column">Cena</span>
+            <span class="cart-quantity cart-header cart-column">Količina</span>
+        </div>
+        <div class="cart-items">
+        </div>
+        <br>
+        <div class="cart-total">
+            <strong class="cart-total-title">Ukupno</strong>
+            <span class="cart-total-price">€0</span>
+        </div>
+        <button class="btn btn-primary btn-purchase" type="button">Naruči</button>
+    </section>
+    <!--cart end-->
 
     <script>
       function openNav() {
