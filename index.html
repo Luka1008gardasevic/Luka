@@ -138,23 +138,62 @@
     <!--Products end-->
     <!--cart-->
     <section class="container content-section">
-        <div id="cart">
-        <h2 class="section-header">Cart</h2></div>
-        <div class="cart-row">
-            <span class="cart-item cart-header cart-column">Proizvod</span>
-            <span class="cart-price cart-header cart-column">Cena</span>
-            <span class="cart-quantity cart-header cart-column">Količina</span>
-        </div>
-        <div class="cart-items">
-        </div>
-        <br>
-        <div class="cart-total">
-            <strong class="cart-total-title">Ukupno</strong>
-            <span class="cart-total-price">€0</span>
-        </div>
-        <button class="btn btn-primary btn-purchase" type="button">Naruči</button>
+      <div id="cart">
+        <h2 class="section-header">Cart</h2>
+      </div>
+      <div class="cart-row">
+        <span class="cart-item cart-header cart-column">Product</span>
+        <span class="cart-price cart-header cart-column">Price</span>
+        <span class="cart-quantity cart-header cart-column">Quantity</span>
+      </div>
+      <div class="cart-items"></div>
+      <br />
+      <div class="cart-total">
+        <strong class="cart-total-title">Total</strong>
+        <span class="cart-total-price">€0</span>
+      </div>
+      <button class="btn btn-primary btn-purchase" type="button">Order</button>
     </section>
     <!--cart end-->
+    <!--Footer-->
+    <footer id="futer">
+      <div id="mapa">
+        <script
+          async
+          defer
+          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDRJ8mrqKVyn7FlW2pFWj6Z-zeNBV7Mod8&callback=initMap"
+        ></script>
+        <script type="text/javascript">
+          function initMap() {
+            var lokacija = { lat: 44.787557, lng: 20.418267 };
+            var map = new google.maps.Map(
+              document.getElementById("google-map"),
+              { zoom: 17, center: lokacija }
+            );
+            var marker = new google.maps.Marker({
+              position: lokacija,
+              map: map,
+            });
+          }
+        </script>
+        <div id="google-map"></div>
+      </div>
+      <div id="kontakt">
+        <div class="informacije">
+          <p>Online sunglasses shop</p>
+          <p>
+            Contact us:
+            <a href="mailto:onlineshop@gmail.com">onlineshop@gmail.com</a>
+          </p>
+          <p>Call us: 011/355 3555</p>
+          <address>
+            <p>Beograd, Radnicka 2</p>
+          </address>
+          <p>Code &copy;Luka Gardasevic</p>
+        </div>
+      </div>
+    </footer>
+    <!--Footer end-->
 
     <script>
       function openNav() {
