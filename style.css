@@ -397,6 +397,13 @@ body {
   .btn-danger {
     display: flex;
   }
+  .cart-item-image {
+   display: none;
+  }
+
+  .cart-item-title{
+      font-size: 12px;
+  }
 }
 
 @media only screen and (min-width: 768px) {
